@@ -1,0 +1,15 @@
+spring：
+  profiles：
+    active:
+        -dev
+---
+spring：
+  profiles：dev
+  application: 
+    name: cloud-config-atguifu-dev  
+
+---
+spring：
+  profiles：test
+  application: 
+    name: cloud-config-atguifu-test     
